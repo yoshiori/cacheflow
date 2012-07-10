@@ -12,3 +12,13 @@ howto
     make
 
 あとはchromeの Tools => Extensions => Load unpacked extension でcacheflowのディレクトリを選択
+
+cacheflowに貢献するには?
+========================
+
+forkしてpull request
+
+cashflowに貢献するには?
+=======================
+
+13Fのスラム街にいるので飯をおごってください
