@@ -6,5 +6,5 @@ chrome.tabs.onUpdated.addListener (tab_id, changes, tab) =>
 cacheflow = (tab) =>
     if tab.url.match "^https?://stackoverflow\.com"
         chrome.tabs.update tab.id, {
-            "url": "http://webcache.googleusercontent.com/search?q=cache:" + encodeURI(tab.url)
+            "url": "http://webcache.googleusercontent.com/search?q=cache:#{encodeURI(tab.url)}"
         }
